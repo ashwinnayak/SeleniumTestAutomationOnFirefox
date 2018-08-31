@@ -16,7 +16,7 @@ public class PrivateBrowsing {
         FirefoxProfile firefoxProfile = new FirefoxProfile();
         firefoxProfile.setPreference("browser.private.browsing.autostart",true);
         WebDriver driver = new FirefoxDriver(firefoxProfile);
-        driver.get("http://www.google.com");
+        driver.get("http://www.google.com"); 
         return  driver;
     }
 }
